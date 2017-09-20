@@ -1,7 +1,0 @@
-v 4
-file . "inverter.vhdl" "04e5a534f9f6e06b863926abcb08b1d3be4408dc" "20170917221454.543":
-  entity inverter at 7( 109) + 0 on 11;
-  architecture structural of inverter at 18( 269) + 0 on 12;
-file . "inverter_test.vhdl" "59757a862bb9ff0b9e3c6e209599abf340720018" "20170917221657.906":
-  entity inverter_test at 7( 108) + 0 on 15;
-  architecture test of inverter_test at 16( 248) + 0 on 16;
