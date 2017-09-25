@@ -32,6 +32,6 @@ begin
 adder1_1: adder1 port map (input1(0), input2(0), cin, sum(0), carry1);
 adder1_2: adder1 port map (input1(1), input2(1), carry1, sum(1), carry2);
 adder1_3: adder1 port map (input1(2), input2(2), carry2, sum(2), carry3);
-adder1_4: adder1 port map (input1(3), input2(3, carry3, sum(3), cout); 
+adder1_4: adder1 port map (input1(3), input2(3), carry3, sum(3), cout); 
 
 end structural;
