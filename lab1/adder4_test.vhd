@@ -45,17 +45,18 @@ begin
             readline(infile, buf);
             read(buf, v_input2);
             readline(infile, buf);
-            wait for 5 ns;
+            read(buf, v_cin);
             s_input1 <= v_input1;
             s_input2 <= v_input2;
             s_cin    <= v_cin;
-
+            wait for 1 ns;
             v_sum    := s_sum;
             v_cout   := s_cout;
 
             write(buf, v_sum);
             writeline(outfile, buf);
-        
+            write(buf, v_cout);
+            writeline(outfile, buf); 
         end loop;
         wait;
     end process;
