@@ -39,6 +39,6 @@ architecture structural of alu_4 is
 begin
     
     mux     :   weird_mux   port map(B, S0, S1, wm_out);
-    adder   :   adder4      port map(A, B, Cin, G, Cout);
+    adder   :   adder4      port map(A, wm_out, Cin, G, Cout);
 
 end structural;
