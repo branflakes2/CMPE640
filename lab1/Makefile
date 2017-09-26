@@ -1,8 +1,11 @@
 FLAGS=--ieee=synopsys
-CLEAN=*.o *.cf *.swo *.swp adder4_test mux4_2_1_test
-all: basics adder1.o adder4.o adder_test.o alu_4.o alu4_test_cmd.o
+CLEAN=*.o *.cf *.swo *.swp adder4_test mux4_2_1_test alu4_test_cmd alu4_test_file
+all: basics adder1.o adder4.o adder_test.o alu_4.o alu4_test_cmd.o alu4_test_file.o
 	ghdl -e ${FLAGS} adder4_test
 	ghdl -e ${FLAGS} alu4_test_cmd
+	ghdl -e ${FLAGS} alu4_test_file
+alu4_test_file.o: alu_4.o
+	ghdl -a ${FLAGS} alu4_test_file.vhd
 alu4_test_cmd.o: alu_4.o
 	ghdl -a ${FLAGS} alu4_test_cmd.vhd
 adder_test.o: adder4.o
