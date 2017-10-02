@@ -4,7 +4,7 @@ set datafile separator ","
 set xrange [0:8e-9]
 set key on center top
 set terminal epslatex size 5,3.75 color solid colortext
-set output 'x1.tex'
+set output 'example.tex'
 
 set linetype  1 lc rgb "dark-violet" lw 2
 set linetype  2 lc rgb "#009e73" lw 2
@@ -19,12 +19,15 @@ set linetype cycle  9
 
 set xlabel "Time (sec)"
 set ylabel "Voltage (V)"
-set title "Output Voltage vs. Time of Inverter x1 with Differing Loads and Square Wave Input"
+set title "Sample Input vs Output Plot of X1 Inverter Driving 16 Inverters"
 
+set arrow from 1.1e-9,2.5 to 1.51e-9,2.5 heads
+set label "$\\Delta _t$" at 1.2e-9,2.3
+set arrow from 1.256e-9,4.5 to 2.8e-9,4.5 nohead
+set arrow from 2.402e-9,.5 to 2.8e-9,.5 nohead
+set arrow from 2.8e-9,.6 to 2.8e-9,4.4 heads
+set label "$\\Delta _r$" at 2.9e-9,2.5
 plot \
-'Output_x1_1.csv' using 3:4 with lines lt 1 title "1 Load Inverter", \
-'Output_x1_2.csv' using 3:4 with lines lt 2 title "2 Load Inverters", \
-'Output_x1_4.csv' using 3:4 with lines lt 3 title "4 Load Inverters", \
-'Output_x1_8.csv' using 3:4 with lines lt 4 title "8 Load Inverters", \
-'Output_x1_16.csv' using 3:4 with lines lt 5 title "16 Load Inverters"
+'Output_x1_16.csv' using 3:4 with lines lt 1 title "Output", \
+'' using 1:2 with lines lt 2 title "Input"
 
