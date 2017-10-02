@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.10.1)  2 OCT 2017 03:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.10.1)  2 OCT 2017 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -55,7 +55,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 ) (./Report.aux
-(./x1.aux) (./x2.aux) (./x4.aux) (./nand.aux))
+(./x1.aux) (./x2.aux) (./x4.aux) (./nand.aux) (./nor.aux))
 \openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -147,35 +147,30 @@ e
 \gptboxwidth=\skip44
 \gptboxtext=\box27
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 121.
+(Font)              <8> on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 121.
+(Font)              <6> on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 121.
+(Font)              <5> on input line 117.
 Package epstopdf Info: Source file: <x1.eps>
-(epstopdf)                    date: 2017-10-02 03:22:14
-(epstopdf)                    size: 30976 bytes
+(epstopdf)                    date: 2017-10-02 11:21:18
+(epstopdf)                    size: 28201 bytes
 (epstopdf)             Output file: <x1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 03:20:02
-(epstopdf)                    size: 8736 bytes
+(epstopdf)                    date: 2017-10-02 11:21:24
+(epstopdf)                    size: 4733 bytes
 (epstopdf)             Command: <repstopdf --outfile=x1-eps-converted-to.pdf x1
 .eps>
-(epstopdf)             \includegraphics on input line 122.
-runsystem(repstopdf --outfile=x1-eps-converted-to.pdf x1.eps)...executed safely
- (allowed).
-
-Package epstopdf Info: Result file: <x1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 03:22:17
-(epstopdf)                    size: 9235 bytes.
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
 <x1-eps-converted-to.pdf, id=1, pagebox=cropbox, 361.35pt x 271.0125pt>
 File: x1-eps-converted-to.pdf Graphic file (type pdf)
 <use x1-eps-converted-to.pdf>
-Package pdftex.def Info: x1-eps-converted-to.pdf  used on input line 122. on in
-put line 122.
+Package pdftex.def Info: x1-eps-converted-to.pdf  used on input line 118. on in
+put line 118.
 Package pdftex.def Info: Requested size: 361.34912pt x 271.01183pt on input lin
-e 122.
+e 118.
 )
-Overfull \hbox (16.34033pt too wide) in paragraph at lines 124--9
+Overfull \hbox (16.34033pt too wide) in paragraph at lines 120--9
 [][] 
  []
 
@@ -183,24 +178,24 @@ Overfull \hbox (16.34033pt too wide) in paragraph at lines 124--9
 
 (./x2.tex
 Package epstopdf Info: Source file: <x2.eps>
-(epstopdf)                    date: 2017-10-02 02:10:40
-(epstopdf)                    size: 28495 bytes
+(epstopdf)                    date: 2017-10-02 11:22:24
+(epstopdf)                    size: 27763 bytes
 (epstopdf)             Output file: <x2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 02:10:48
-(epstopdf)                    size: 8267 bytes
+(epstopdf)                    date: 2017-10-02 11:22:31
+(epstopdf)                    size: 4863 bytes
 (epstopdf)             Command: <repstopdf --outfile=x2-eps-converted-to.pdf x2
 .eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 <x2-eps-converted-to.pdf, id=2, pagebox=cropbox, 361.35pt x 271.0125pt>
 File: x2-eps-converted-to.pdf Graphic file (type pdf)
 <use x2-eps-converted-to.pdf>
-Package pdftex.def Info: x2-eps-converted-to.pdf  used on input line 120. on in
-put line 120.
+Package pdftex.def Info: x2-eps-converted-to.pdf  used on input line 118. on in
+put line 118.
 Package pdftex.def Info: Requested size: 361.34912pt x 271.01183pt on input lin
-e 120.
+e 118.
 )
-Overfull \hbox (16.34033pt too wide) in paragraph at lines 122--15
+Overfull \hbox (16.34033pt too wide) in paragraph at lines 120--15
 [][] 
  []
 
@@ -208,24 +203,29 @@ Overfull \hbox (16.34033pt too wide) in paragraph at lines 122--15
 
 (./x4.tex
 Package epstopdf Info: Source file: <x4.eps>
-(epstopdf)                    date: 2017-10-02 02:10:42
-(epstopdf)                    size: 28195 bytes
+(epstopdf)                    date: 2017-10-02 11:24:17
+(epstopdf)                    size: 27473 bytes
 (epstopdf)             Output file: <x4-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 02:10:49
+(epstopdf)                    date: 2017-10-02 10:22:46
 (epstopdf)                    size: 7931 bytes
 (epstopdf)             Command: <repstopdf --outfile=x4-eps-converted-to.pdf x4
 .eps>
-(epstopdf)             \includegraphics on input line 120.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 118.
+runsystem(repstopdf --outfile=x4-eps-converted-to.pdf x4.eps)...executed safely
+ (allowed).
+
+Package epstopdf Info: Result file: <x4-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-02 11:24:26
+(epstopdf)                    size: 4882 bytes.
 <x4-eps-converted-to.pdf, id=3, pagebox=cropbox, 361.35pt x 271.0125pt>
 File: x4-eps-converted-to.pdf Graphic file (type pdf)
 <use x4-eps-converted-to.pdf>
-Package pdftex.def Info: x4-eps-converted-to.pdf  used on input line 120. on in
-put line 120.
+Package pdftex.def Info: x4-eps-converted-to.pdf  used on input line 118. on in
+put line 118.
 Package pdftex.def Info: Requested size: 361.34912pt x 271.01183pt on input lin
-e 120.
+e 118.
 )
-Overfull \hbox (16.34033pt too wide) in paragraph at lines 122--21
+Overfull \hbox (16.34033pt too wide) in paragraph at lines 120--21
 [][] 
  []
 
@@ -233,11 +233,11 @@ Overfull \hbox (16.34033pt too wide) in paragraph at lines 122--21
 
 (./nand.tex
 Package epstopdf Info: Source file: <nand.eps>
-(epstopdf)                    date: 2017-10-02 03:16:03
+(epstopdf)                    date: 2017-10-02 11:19:38
 (epstopdf)                    size: 30913 bytes
 (epstopdf)             Output file: <nand-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 03:16:48
-(epstopdf)                    size: 9636 bytes
+(epstopdf)                    date: 2017-10-02 11:19:45
+(epstopdf)                    size: 9607 bytes
 (epstopdf)             Command: <repstopdf --outfile=nand-eps-converted-to.pdf 
 nand.eps>
 (epstopdf)             \includegraphics on input line 122.
@@ -254,6 +254,31 @@ Overfull \hbox (16.34033pt too wide) in paragraph at lines 124--27
 [][] 
  []
 
+\openout2 = `nor.aux'.
+
+(./nor.tex
+Package epstopdf Info: Source file: <nor.eps>
+(epstopdf)                    date: 2017-10-02 11:17:52
+(epstopdf)                    size: 30794 bytes
+(epstopdf)             Output file: <nor-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-10-02 11:18:32
+(epstopdf)                    size: 9539 bytes
+(epstopdf)             Command: <repstopdf --outfile=nor-eps-converted-to.pdf n
+or.eps>
+(epstopdf)             \includegraphics on input line 122.
+Package epstopdf Info: Output file is already uptodate.
+<nor-eps-converted-to.pdf, id=5, pagebox=cropbox, 361.35pt x 271.0125pt>
+File: nor-eps-converted-to.pdf Graphic file (type pdf)
+<use nor-eps-converted-to.pdf>
+Package pdftex.def Info: nor-eps-converted-to.pdf  used on input line 122. on i
+nput line 122.
+Package pdftex.def Info: Requested size: 361.34912pt x 271.01183pt on input lin
+e 122.
+)
+Overfull \hbox (16.34033pt too wide) in paragraph at lines 124--33
+[][] 
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -267,25 +292,28 @@ Overfull \hbox (16.34033pt too wide) in paragraph at lines 124--27
  <./x4-eps-converted-to.pdf>] [4
 
 
- <./nand-eps-converted-to.pdf>] (./Report.aux (./x1.aux) (./x2.aux) (./x4.aux)
-(./nand.aux)) ) 
+ <./nand-eps-converted-to.pdf>] [5
+
+
+ <./nor-eps-converted-to.pdf>] (./Report.aux (./x1.aux) (./x2.aux) (./x4.aux) (
+./nand.aux) (./nor.aux)) ) 
 Here is how much of TeX's memory you used:
- 1555 strings out of 492990
- 21703 string characters out of 6138688
- 85725 words of memory out of 5000000
- 5082 multiletter control sequences out of 15000+600000
+ 1567 strings out of 492990
+ 21903 string characters out of 6138688
+ 87960 words of memory out of 5000000
+ 5087 multiletter control sequences out of 15000+600000
  5463 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,26p,273b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy8.pfb>
-Output written on Report.pdf (4 pages, 75736 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb>
+Output written on Report.pdf (5 pages, 73019 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

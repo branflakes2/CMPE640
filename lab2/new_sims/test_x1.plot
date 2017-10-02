@@ -17,9 +17,9 @@ set ylabel "Voltage (V)"
 set title "Output Voltage vs. Time of Inverter x1 with Differing Loads and Square Wave Input"
 
 plot \
-'Output_x1_1.csv' using 3:4 with lines lt 2 title "1 Load Inverter", \
-'Output_x1_2.csv' using 3:4 with lines lt 3 title "2 Load Inverters", \
-'Output_x1_4.csv' using 3:4 with lines lt 4 title "4 Load Inverters", \
-'Output_x1_8.csv' using 3:4 with lines lt 5 title "8 Load Inverters", \
-'Output_x1_16.csv' using 3:4 with lines lt 6 title "16 Load Inverters"
+'Output_x1_1.csv' using 5:6 with lines lt 2 title "1 Load Inverter", \
+'Output_x1_2.csv' using 1:2 with lines lt 3 title "2 Load Inverters", \
+'Output_x1_4.csv' using 1:2 with lines lt 4 title "4 Load Inverters", \
+'Output_x1_8.csv' using 1:2 with lines lt 5 title "8 Load Inverters", \
+'Output_x1_16.csv' using 1:2 with lines lt 6 title "16 Load Inverters"
 
